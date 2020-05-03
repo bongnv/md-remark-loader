@@ -1,0 +1,37 @@
+{
+  "name": "@bongnv/md-remark-loader",
+  "version": "1.0.0",
+  "description": "Description ",
+  "main": "index.js",
+  "scripts": {
+    "release": "semantic-release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bongnv/md-remark-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "markdown",
+    "remark",
+    "loader"
+  ],
+  "author": "Bong Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bongnv/md-remark-loader/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/bongnv/md-remark-loader#readme",
+  "dependencies": {
+    "loader-utils": "^2.0.0",
+    "remark": "^12.0.0",
+    "sanitize-html": "^1.23.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.7"
+  }
+}
